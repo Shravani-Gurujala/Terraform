@@ -5,5 +5,6 @@ provider "aws" {
 resource "aws_instance" "EC2" {
     ami = ""
     instance_type = ""
-  
+    subnet_id = ""
+    Key_name = ""  
 }
